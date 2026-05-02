@@ -1,5 +1,5 @@
 import { WebStandardStreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js";
-import { createServerForUser } from "../src/server.js";
+import { createServerForUser } from "../src/mcpServer.js";
 import { getConvexClient } from "../src/lib/convex.js";
 import { getBaseUrl } from "../src/lib/clerk.js";
 

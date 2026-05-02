@@ -160,7 +160,7 @@ chaoscourse/
 │   ├── import.ts           # commitParsedSyllabus (atomic multi-table insert)
 │   └── oauth.ts            # registerClient, getClient, createAuthCode, consumeAuthCode, createOrGetAccessToken, getUserIdByToken
 ├── src/
-│   ├── server.ts           # MCP server factory — aggregates 16 tools
+│   ├── mcpServer.ts        # MCP server factory — aggregates 16 tools
 │   ├── tools/
 │   │   ├── import.ts       # 4 import tools (create_semester, import_syllabus, confirm_import, add_course_manual)
 │   │   ├── query.ts        # 7 query tools incl. prioritize scoring
