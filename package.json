@@ -1,0 +1,28 @@
+{
+  "name": "chaoscourse",
+  "version": "0.1.0",
+  "description": "MCP server that makes Claude semester-aware by parsing syllabi into structured course data",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "convex:dev": "convex dev",
+    "convex:deploy": "convex deploy"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0",
+    "@clerk/backend": "^3.4.4",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "convex": "^1.18.0",
+    "mammoth": "^1.8.0",
+    "pdf-parse": "^1.1.1",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/pdf-parse": "^1.1.4",
+    "@vercel/node": "^5.0.0",
+    "typescript": "^5.7.0"
+  }
+}

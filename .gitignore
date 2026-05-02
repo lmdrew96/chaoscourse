@@ -1,0 +1,33 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# build output
+/dist
+/out-tsc
+/tmp
+
+# environment
+.env
+.env.local
+.env*.local
+
+# Convex
+/.convex
+
+# Vercel
+/.vercel
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editor
+.vscode/*
+.idea/*
+.DS_Store
+
+# local agent settings
+.claude/

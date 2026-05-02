@@ -1,0 +1,719 @@
+{
+  "course": {
+    "code": "ENGL 204",
+    "name": "American Literature",
+    "instructor": "Dr. James Keegan",
+    "instructor_email": "jkeegan@udel.edu",
+    "instructor_phone": "302-249-7542",
+    "office_hours": "MW 12:00-1:00pm (drop-in), or by appointment",
+    "schedule": "TR 1:00-2:20pm",
+    "location": "Jason Technology Center, Room 140",
+    "credit_hours": null
+  },
+  "texts": [
+    {
+      "title": "Norton Anthology of American Literature",
+      "author": null,
+      "edition": "9th Edition",
+      "notes": "Available in PDF on Canvas"
+    },
+    {
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "edition": "60th Anniversary Edition, Simon & Schuster, 2018",
+      "notes": "Electronic PDF also available on Canvas (lacks pagination)"
+    },
+    {
+      "title": "James",
+      "author": "Percival Everett",
+      "edition": "Doubleday, 2024",
+      "notes": null
+    }
+  ],
+  "grading": {
+    "components": [
+      {
+        "name": "Two Exams",
+        "weight": 60,
+        "notes": "30% each"
+      },
+      {
+        "name": "Daily In-Class Reading Quizzes",
+        "weight": 10,
+        "notes": "Cumulative"
+      },
+      {
+        "name": "Two Creative Response Projects",
+        "weight": 30,
+        "notes": "15% each"
+      }
+    ],
+    "scale": null,
+    "weights_verified": true
+  },
+  "assignments": [
+    {
+      "title": "First Creative Response Project",
+      "type": "project",
+      "due_date": "2026-03-17",
+      "weight": 15,
+      "notes": null
+    },
+    {
+      "title": "In-Class Midterm Exam",
+      "type": "exam",
+      "due_date": "2026-03-19",
+      "weight": 30,
+      "notes": "Bring blue exam booklet (on sale in campus bookstore)"
+    },
+    {
+      "title": "Second Creative Response Project",
+      "type": "project",
+      "due_date": "2026-05-14",
+      "weight": 15,
+      "notes": "Due on Canvas"
+    },
+    {
+      "title": "Final Examination",
+      "type": "exam",
+      "due_date": null,
+      "weight": 30,
+      "notes": "During finals week; date TBA when Final Exam Schedule is posted"
+    }
+  ],
+  "readings": [
+    {
+      "class_date": "2026-02-03",
+      "items": [
+        {
+          "title": "Introduction to the course",
+          "author": null,
+          "source": null,
+          "pages": null
+        }
+      ]
+    },
+    {
+      "class_date": "2026-02-05",
+      "items": [
+        {
+          "title": "Introduction: Beginnings to 1820",
+          "author": null,
+          "source": "NAAL Volume A",
+          "pages": "3-25"
+        },
+        {
+          "title": "The Prologue",
+          "author": "Anne Bradstreet",
+          "source": "NAAL Volume A",
+          "pages": "219"
+        },
+        {
+          "title": "To Her Father with Some Verses",
+          "author": "Anne Bradstreet",
+          "source": "NAAL Volume A",
+          "pages": "226"
+        },
+        {
+          "title": "The Author to Her Book",
+          "author": "Anne Bradstreet",
+          "source": "NAAL Volume A",
+          "pages": "236"
+        },
+        {
+          "title": "To My Dear and Loving Husband",
+          "author": "Anne Bradstreet",
+          "source": "NAAL Volume A",
+          "pages": "237"
+        },
+        {
+          "title": "A Letter to Her Husband, Absent upon Public Employment",
+          "author": "Anne Bradstreet",
+          "source": "NAAL Volume A",
+          "pages": "238"
+        },
+        {
+          "title": "In Memory of My Dear Grand child Elizabeth Bradstreet",
+          "author": "Anne Bradstreet",
+          "source": "NAAL Volume A",
+          "pages": "241"
+        },
+        {
+          "title": "For Deliverance from a Fever",
+          "author": "Anne Bradstreet",
+          "source": "NAAL Volume A",
+          "pages": "243"
+        },
+        {
+          "title": "Here Follows Some Verses upon the Burning of Our House",
+          "author": "Anne Bradstreet",
+          "source": "NAAL Volume A",
+          "pages": "243"
+        },
+        {
+          "title": "To My Dear Children",
+          "author": "Anne Bradstreet",
+          "source": "NAAL Volume A",
+          "pages": "246"
+        },
+        {
+          "title": "The Way to Wealth",
+          "author": "Benjamin Franklin",
+          "source": "NAAL Volume A",
+          "pages": "442"
+        },
+        {
+          "title": "Remarks Concerning the Savages of North America",
+          "author": "Benjamin Franklin",
+          "source": "NAAL Volume A",
+          "pages": "462"
+        },
+        {
+          "title": "Letters from an American Farmer — Letter III: What Is an American?",
+          "author": "J. Hector St. John de Crèvecoeur",
+          "source": "NAAL Volume A",
+          "pages": "636"
+        },
+        {
+          "title": "Letters from an American Farmer — Letter IX: Description of Charles-Town",
+          "author": "J. Hector St. John de Crèvecoeur",
+          "source": "NAAL Volume A",
+          "pages": "645"
+        },
+        {
+          "title": "On Being Brought from Africa to America",
+          "author": "Phillis Wheatley",
+          "source": "NAAL Volume A",
+          "pages": "789"
+        },
+        {
+          "title": "To the University of Cambridge, in New England",
+          "author": "Phillis Wheatley",
+          "source": "NAAL Volume A",
+          "pages": "790"
+        },
+        {
+          "title": "Thoughts on the Works of Providence",
+          "author": "Phillis Wheatley",
+          "source": "NAAL Volume A",
+          "pages": "792"
+        },
+        {
+          "title": "To S.M., A Young African Painter, On Seeing His Works",
+          "author": "Phillis Wheatley",
+          "source": "NAAL Volume A",
+          "pages": "795"
+        },
+        {
+          "title": "To His Excellency George Washington",
+          "author": "Phillis Wheatley",
+          "source": "NAAL Volume A",
+          "pages": "796"
+        },
+        {
+          "title": "Letter to John Thornton (Apr. 21, 1772)",
+          "author": "Phillis Wheatley",
+          "source": "NAAL Volume A",
+          "pages": "798"
+        },
+        {
+          "title": "Letter to Rev. Samson Occom (Feb. 11, 1774)",
+          "author": "Phillis Wheatley",
+          "source": "NAAL Volume A",
+          "pages": "798"
+        }
+      ]
+    },
+    {
+      "class_date": "2026-02-12",
+      "items": [
+        {
+          "title": "Introduction: 1820-1865",
+          "author": null,
+          "source": "NAAL Volume B",
+          "pages": "3-21"
+        },
+        {
+          "title": "Rip Van Winkle",
+          "author": "Washington Irving",
+          "source": "NAAL Volume B",
+          "pages": "29"
+        },
+        {
+          "title": "My Kinsman, Major Molineux",
+          "author": "Nathaniel Hawthorne",
+          "source": "NAAL Volume B",
+          "pages": "332"
+        },
+        {
+          "title": "Young Goodman Brown",
+          "author": "Nathaniel Hawthorne",
+          "source": "NAAL Volume B",
+          "pages": "345"
+        },
+        {
+          "title": "The Minister's Black Veil",
+          "author": "Nathaniel Hawthorne",
+          "source": "NAAL Volume B",
+          "pages": "368"
+        }
+      ]
+    },
+    {
+      "class_date": "2026-02-17",
+      "items": [
+        {
+          "title": "The Raven",
+          "author": "Edgar Allan Poe",
+          "source": "NAAL Volume B",
+          "pages": "612"
+        },
+        {
+          "title": "Annabel Lee",
+          "author": "Edgar Allan Poe",
+          "source": "NAAL Volume B",
+          "pages": "618"
+        },
+        {
+          "title": "The Fall of the House of Usher",
+          "author": "Edgar Allan Poe",
+          "source": "NAAL Volume B",
+          "pages": "629"
+        },
+        {
+          "title": "The Tell-Tale Heart",
+          "author": "Edgar Allan Poe",
+          "source": "NAAL Volume B",
+          "pages": "666"
+        },
+        {
+          "title": "The Cask of Amontillado",
+          "author": "Edgar Allan Poe",
+          "source": "NAAL Volume B",
+          "pages": "696"
+        }
+      ]
+    },
+    {
+      "class_date": "2026-02-19",
+      "items": [
+        {
+          "title": "Nature",
+          "author": "Ralph Waldo Emerson",
+          "source": "NAAL Volume B",
+          "pages": "181"
+        },
+        {
+          "title": "The American Scholar",
+          "author": "Ralph Waldo Emerson",
+          "source": "NAAL Volume B",
+          "pages": "210"
+        },
+        {
+          "title": "Self-Reliance",
+          "author": "Ralph Waldo Emerson",
+          "source": "NAAL Volume B",
+          "pages": "236"
+        }
+      ]
+    },
+    {
+      "class_date": "2026-02-24",
+      "items": [
+        {
+          "title": "Resistance to Civil Government",
+          "author": "Henry David Thoreau",
+          "source": "NAAL Volume B",
+          "pages": "953"
+        },
+        {
+          "title": "Walden: Where I Lived and What I Lived For, Solitude, and Conclusion",
+          "author": "Henry David Thoreau",
+          "source": "NAAL Volume B",
+          "pages": null
+        }
+      ]
+    },
+    {
+      "class_date": "2026-02-26",
+      "items": [
+        {
+          "title": "A House Divided: Speech at Springfield, June 16, 1858",
+          "author": "Abraham Lincoln",
+          "source": "NAAL Volume B",
+          "pages": "714"
+        },
+        {
+          "title": "Gettysburg Address, November 19, 1863",
+          "author": "Abraham Lincoln",
+          "source": "NAAL Volume B",
+          "pages": "720"
+        },
+        {
+          "title": "Second Inaugural Address, March 1865",
+          "author": "Abraham Lincoln",
+          "source": "NAAL Volume B",
+          "pages": "721"
+        },
+        {
+          "title": "Narrative of the Life of Frederick Douglass, An American Slave",
+          "author": "Frederick Douglass",
+          "source": "NAAL Volume B",
+          "pages": "1163"
+        },
+        {
+          "title": "What to the Slave is the Fourth of July?",
+          "author": "Frederick Douglass",
+          "source": "NAAL Volume B",
+          "pages": "1236"
+        }
+      ]
+    },
+    {
+      "class_date": "2026-03-03",
+      "items": [
+        {
+          "title": "Introduction: 1865-1914",
+          "author": null,
+          "source": "NAAL Volume C",
+          "pages": "1-15"
+        },
+        {
+          "title": "Song of Myself",
+          "author": "Walt Whitman",
+          "source": "NAAL Volume C",
+          "pages": "23"
+        }
+      ]
+    },
+    {
+      "class_date": "2026-03-05",
+      "items": [
+        {
+          "title": "Vigil Strange I Kept on the Field One Night",
+          "author": "Walt Whitman",
+          "source": "NAAL Volume C",
+          "pages": "75"
+        },
+        {
+          "title": "The Wound Dresser",
+          "author": "Walt Whitman",
+          "source": "NAAL Volume C",
+          "pages": "76"
+        },
+        {
+          "title": "When Lilacs Last in the Dooryard Bloom'd",
+          "author": "Walt Whitman",
+          "source": "NAAL Volume C",
+          "pages": "78"
+        }
+      ]
+    },
+    {
+      "class_date": "2026-03-10",
+      "items": [
+        {
+          "title": "Complete Dickinson selection",
+          "author": "Emily Dickinson",
+          "source": "NAAL Volume C",
+          "pages": "92-111"
+        }
+      ]
+    },
+    {
+      "class_date": "2026-03-12",
+      "items": [
+        {
+          "title": "Emily Dickinson continued",
+          "author": "Emily Dickinson",
+          "source": "NAAL Volume C",
+          "pages": null
+        }
+      ]
+    },
+    {
+      "class_date": "2026-03-17",
+      "items": [
+        {
+          "title": "Exam Review / Discussion of second half of semester",
+          "author": null,
+          "source": null,
+          "pages": null
+        }
+      ]
+    },
+    {
+      "class_date": "2026-03-19",
+      "items": [
+        {
+          "title": "In-Class Midterm Exam",
+          "author": null,
+          "source": null,
+          "pages": null
+        }
+      ]
+    },
+    {
+      "class_date": "2026-03-31",
+      "items": [
+        {
+          "title": "Adventures of Huckleberry Finn, Chapters I-XVIII",
+          "author": "Mark Twain",
+          "source": "NAAL Volume C",
+          "pages": "119-193"
+        }
+      ]
+    },
+    {
+      "class_date": "2026-04-02",
+      "items": [
+        {
+          "title": "Adventures of Huckleberry Finn, Chapters XIX-XXXI",
+          "author": "Mark Twain",
+          "source": "NAAL Volume C",
+          "pages": "193-256"
+        }
+      ]
+    },
+    {
+      "class_date": "2026-04-07",
+      "items": [
+        {
+          "title": "Adventures of Huckleberry Finn, Chapters XXXII-Chapter the Last",
+          "author": "Mark Twain",
+          "source": "NAAL Volume C",
+          "pages": "256-303"
+        },
+        {
+          "title": "Critical Controversy: Race and the Ending of Adventures of Huckleberry Finn (seven essays)",
+          "author": null,
+          "source": "NAAL Volume C",
+          "pages": "303-317"
+        }
+      ]
+    },
+    {
+      "class_date": "2026-04-09",
+      "items": [
+        {
+          "title": "Introduction: 1914-1945",
+          "author": null,
+          "source": "NAAL Volume D",
+          "pages": "3-21"
+        },
+        {
+          "title": "Mending Wall",
+          "author": "Robert Frost",
+          "source": "NAAL Volume D",
+          "pages": "220"
+        },
+        {
+          "title": "Home Burial",
+          "author": "Robert Frost",
+          "source": "NAAL Volume D",
+          "pages": "225"
+        },
+        {
+          "title": "The Road Not Taken",
+          "author": "Robert Frost",
+          "source": "NAAL Volume D",
+          "pages": "230"
+        },
+        {
+          "title": "The Oven Bird",
+          "author": "Robert Frost",
+          "source": "NAAL Volume D",
+          "pages": "230"
+        },
+        {
+          "title": "Out, Out—",
+          "author": "Robert Frost",
+          "source": "NAAL Volume D",
+          "pages": "232"
+        },
+        {
+          "title": "Fire and Ice",
+          "author": "Robert Frost",
+          "source": "NAAL Volume D",
+          "pages": "233"
+        },
+        {
+          "title": "Nothing Gold Can Stay",
+          "author": "Robert Frost",
+          "source": "NAAL Volume D",
+          "pages": "233"
+        },
+        {
+          "title": "Stopping by Woods on a Snowy Evening",
+          "author": "Robert Frost",
+          "source": "NAAL Volume D",
+          "pages": "233"
+        },
+        {
+          "title": "Desert Places",
+          "author": "Robert Frost",
+          "source": "NAAL Volume D",
+          "pages": "234"
+        },
+        {
+          "title": "Design",
+          "author": "Robert Frost",
+          "source": "NAAL Volume D",
+          "pages": "234"
+        },
+        {
+          "title": "Provide, Provide",
+          "author": "Robert Frost",
+          "source": "NAAL Volume D",
+          "pages": "235"
+        }
+      ]
+    },
+    {
+      "class_date": "2026-04-14",
+      "items": [
+        {
+          "title": "A Streetcar Named Desire",
+          "author": "Tennessee Williams",
+          "source": "NAAL Volume E",
+          "pages": "76"
+        }
+      ]
+    },
+    {
+      "class_date": "2026-04-16",
+      "items": [
+        {
+          "title": "A Streetcar Named Desire (continued)",
+          "author": "Tennessee Williams",
+          "source": "NAAL Volume E",
+          "pages": "76"
+        }
+      ]
+    },
+    {
+      "class_date": "2026-04-21",
+      "items": [
+        {
+          "title": "Sonny's Blues",
+          "author": "James Baldwin",
+          "source": "NAAL Volume E",
+          "pages": "404"
+        }
+      ]
+    },
+    {
+      "class_date": "2026-04-23",
+      "items": [
+        {
+          "title": "Fahrenheit 451: Part One — The Hearth and the Salamander",
+          "author": "Ray Bradbury",
+          "source": "Fahrenheit 451",
+          "pages": null
+        }
+      ]
+    },
+    {
+      "class_date": "2026-04-28",
+      "items": [
+        {
+          "title": "Fahrenheit 451: Part Two — The Sieve and the Sand",
+          "author": "Ray Bradbury",
+          "source": "Fahrenheit 451",
+          "pages": null
+        }
+      ]
+    },
+    {
+      "class_date": "2026-04-30",
+      "items": [
+        {
+          "title": "Fahrenheit 451: Part Three — Burning Bright",
+          "author": "Ray Bradbury",
+          "source": "Fahrenheit 451",
+          "pages": null
+        }
+      ]
+    },
+    {
+      "class_date": "2026-05-05",
+      "items": [
+        {
+          "title": "James: The Notebook of Daniel Decatur Emmet and Part One (pp. 1-96)",
+          "author": "Percival Everett",
+          "source": "James",
+          "pages": "1-96"
+        }
+      ]
+    },
+    {
+      "class_date": "2026-05-07",
+      "items": [
+        {
+          "title": "James: Remainder of Part One (pp. 97-185)",
+          "author": "Percival Everett",
+          "source": "James",
+          "pages": "97-185"
+        }
+      ]
+    },
+    {
+      "class_date": null,
+      "items": [
+        {
+          "title": "James: Parts Two and Three (pp. 189-303)",
+          "author": "Percival Everett",
+          "source": "James",
+          "pages": "189-303"
+        }
+      ],
+      "raw_schedule_text": "Undated entry between May 7 and May 14 — likely May 12 (Tuesday)"
+    },
+    {
+      "class_date": "2026-05-14",
+      "items": [
+        {
+          "title": "Percival Everett, James (continued/discussion)",
+          "author": "Percival Everett",
+          "source": "James",
+          "pages": null
+        }
+      ]
+    }
+  ],
+  "policies": [
+    {
+      "category": "technology",
+      "description": "Cell phones must be silent/off before class. No texting or games. Phone must not be visible. Unauthorized phone use counts as an absence."
+    },
+    {
+      "category": "attendance",
+      "description": "3 unexcused absences permitted. Beyond 3, final grade drops one increment per absence (e.g., B- becomes C+). Excused absences: sickness, death in family, transportation emergencies. Must notify instructor before class if sick without doctor's note. Extracurricular activities generally not excused."
+    },
+    {
+      "category": "late_work",
+      "description": "All assignments submitted on Canvas by posted due dates. Drops one grading increment per day late unless an extension was granted. Contact instructor immediately if Canvas submission issues occur."
+    },
+    {
+      "category": "other",
+      "description": "Quizzes: Cannot be made up if missed (zero given). Contact instructor if prevented from submitting by deadline; instructor can reopen if warranted."
+    },
+    {
+      "category": "participation",
+      "description": "Students expected to come prepared with readings completed and ready to discuss. Instructor may cold-call students."
+    },
+    {
+      "category": "academic_integrity",
+      "description": "All work must be student's own. Using ChatBots or other AI to generate content is academic dishonesty and will be reported to Office of Student Conduct."
+    }
+  ],
+  "warnings": [
+    "Feb 5 session has an unusually large reading load (21 items across 4 authors) — verify this is all assigned for a single class date",
+    "One James reading session (Parts Two and Three, pp. 189-303) has no date — appears between May 7 and May 14, likely May 12 (Tuesday)",
+    "Final exam date is TBA — update when Final Exam Schedule is posted",
+    "Credit hours not specified in syllabus",
+    "No grading scale provided (e.g., what percentage = A, B+, etc.)",
+    "Class time listed as '1:00 to 2:20 a.m.' in syllabus — likely should be p.m.",
+    "Spring Break noted as March 24 & 26 — no classes those dates"
+  ]
+}
