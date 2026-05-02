@@ -93,7 +93,7 @@ Get a key at [console.anthropic.com](https://console.anthropic.com). Save as `AN
 
 You can reuse your existing Clerk app from the ADHDesigns ecosystem (one Clerk app, many properties). Grab:
 
-- `CLERK_PUBLISHABLE_KEY` (for the embedded sign-in component)
+- `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` (for the embedded sign-in component — `NEXT_PUBLIC_` prefix is required so the key reaches the client bundle)
 - `CLERK_SECRET_KEY` (for server-side JWT verification)
 
 In Clerk's dashboard, add `https://chaoscourse-mcp.vercel.app` (and `https://*.vercel.app` for preview deploys) to the allowed origins / authorized redirect URLs so Clerk's hosted JS bundle will run on this domain.
@@ -104,7 +104,7 @@ In Clerk's dashboard, add `https://chaoscourse-mcp.vercel.app` (and `https://*.v
 vercel link
 vercel env add CONVEX_URL
 vercel env add ANTHROPIC_API_KEY
-vercel env add CLERK_PUBLISHABLE_KEY
+vercel env add NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
 vercel env add CLERK_SECRET_KEY
 vercel deploy --prod
 ```
