@@ -39,4 +39,6 @@ const handler = async (req: Request): Promise<Response> => {
   return transport.handleRequest(req);
 };
 
+export const maxDuration = 60;
+
 export { handler as GET, handler as POST, handler as DELETE };
