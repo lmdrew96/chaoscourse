@@ -1,7 +1,7 @@
 import { WebStandardStreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js";
-import { createServerForUser } from "../src/mcpServer.js";
-import { getConvexClient } from "../src/lib/convex.js";
-import { getBaseUrl } from "../src/lib/clerk.js";
+import { createServerForUser } from "@/src/mcpServer";
+import { getConvexClient } from "@/src/lib/convex";
+import { getBaseUrl } from "@/src/lib/baseUrl";
 
 const unauthorized = (): Response => {
   const resourceMetadataUrl = `${getBaseUrl()}/.well-known/oauth-protected-resource`;
@@ -20,7 +20,7 @@ const getUserIdFromToken = async (token: string): Promise<string | null> => {
     | null;
 };
 
-export default async function handler(req: Request): Promise<Response> {
+const handler = async (req: Request): Promise<Response> => {
   const authHeader = req.headers.get("Authorization");
   const token = authHeader?.startsWith("Bearer ")
     ? authHeader.slice(7).trim()
@@ -37,6 +37,6 @@ export default async function handler(req: Request): Promise<Response> {
   const server = createServerForUser(userId);
   await server.connect(transport);
   return transport.handleRequest(req);
-}
+};
 
-export const config = { runtime: "nodejs" };
+export { handler as GET, handler as POST, handler as DELETE };

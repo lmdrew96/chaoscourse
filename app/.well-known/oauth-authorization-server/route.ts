@@ -1,4 +1,4 @@
-import { getBaseUrl } from "../../src/lib/clerk.js";
+import { getBaseUrl } from "@/src/lib/baseUrl";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
@@ -6,10 +6,11 @@ const corsHeaders = {
   "Access-Control-Allow-Headers": "Content-Type, Authorization",
 };
 
-export default async function handler(req: Request): Promise<Response> {
-  if (req.method === "OPTIONS") {
-    return new Response(null, { status: 204, headers: corsHeaders });
-  }
+export async function OPTIONS() {
+  return new Response(null, { status: 204, headers: corsHeaders });
+}
+
+export async function GET() {
   const base = getBaseUrl();
   return Response.json(
     {
@@ -25,5 +26,3 @@ export default async function handler(req: Request): Promise<Response> {
     { headers: corsHeaders },
   );
 }
-
-export const config = { runtime: "nodejs" };

@@ -1,4 +1,4 @@
-import { getConvexClient } from "../lib/convex.js";
+import { getConvexClient } from "../lib/convex";
 
 export type ToolArgs = Record<string, unknown>;
 

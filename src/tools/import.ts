@@ -1,11 +1,11 @@
-import { getAnthropicClient } from "../lib/anthropic.js";
-import { getConvexClient } from "../lib/convex.js";
+import { getAnthropicClient } from "../lib/anthropic";
+import { getConvexClient } from "../lib/convex";
 import {
   EXTRACTION_MODEL,
   SYSTEM_PROMPT,
   buildUserMessage,
-} from "../parser/prompt.js";
-import { ParsedSyllabusSchema, parseAndValidate } from "../parser/validate.js";
+} from "../parser/prompt";
+import { ParsedSyllabusSchema, parseAndValidate } from "../parser/validate";
 
 export type ToolArgs = Record<string, unknown>;
 

@@ -1,4 +1,4 @@
-import { getConvexClient } from "../../src/lib/convex.js";
+import { getConvexClient } from "@/src/lib/convex";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
@@ -6,7 +6,10 @@ const corsHeaders = {
   "Access-Control-Allow-Headers": "Content-Type, Authorization",
 };
 
-const verifyPkce = async (codeVerifier: string, codeChallenge: string): Promise<boolean> => {
+const verifyPkce = async (
+  codeVerifier: string,
+  codeChallenge: string,
+): Promise<boolean> => {
   const data = new TextEncoder().encode(codeVerifier);
   const hash = await globalThis.crypto.subtle.digest("SHA-256", data);
   const computed = btoa(String.fromCharCode(...new Uint8Array(hash)))
@@ -16,14 +19,11 @@ const verifyPkce = async (codeVerifier: string, codeChallenge: string): Promise<
   return computed === codeChallenge;
 };
 
-export default async function handler(req: Request): Promise<Response> {
-  if (req.method === "OPTIONS") {
-    return new Response(null, { status: 204, headers: corsHeaders });
-  }
-  if (req.method !== "POST") {
-    return new Response("Method not allowed", { status: 405, headers: corsHeaders });
-  }
+export async function OPTIONS() {
+  return new Response(null, { status: 204, headers: corsHeaders });
+}
 
+export async function POST(req: Request) {
   const body = await req.text();
   const params = new URLSearchParams(body);
 
@@ -41,13 +41,23 @@ export default async function handler(req: Request): Promise<Response> {
   }
   if (!code || !redirectUri || !clientId || !codeVerifier) {
     return Response.json(
-      { error: "invalid_request", error_description: "Missing required parameters" },
+      {
+        error: "invalid_request",
+        error_description: "Missing required parameters",
+      },
       { status: 400, headers: corsHeaders },
     );
   }
 
   const convex = getConvexClient();
-  const record: any = await convex.mutation("oauth:consumeAuthCode" as any, { code });
+  const record = (await convex.mutation("oauth:consumeAuthCode" as any, {
+    code,
+  })) as {
+    clientId: string;
+    userId: string;
+    redirectUri: string;
+    codeChallenge: string;
+  } | null;
   if (!record) {
     return Response.json(
       { error: "invalid_grant", error_description: "Code expired or already used" },
@@ -80,5 +90,3 @@ export default async function handler(req: Request): Promise<Response> {
     { headers: corsHeaders },
   );
 }
-
-export const config = { runtime: "nodejs" };

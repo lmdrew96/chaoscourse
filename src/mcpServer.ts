@@ -7,19 +7,19 @@ import {
 import {
   IMPORT_TOOL_DEFINITIONS,
   handleImportTool,
-} from "./tools/import.js";
+} from "./tools/import";
 import {
   QUERY_TOOL_DEFINITIONS,
   handleQueryTool,
-} from "./tools/query.js";
+} from "./tools/query";
 import {
   STATUS_TOOL_DEFINITIONS,
   handleStatusTool,
-} from "./tools/status.js";
+} from "./tools/status";
 import {
   SEMESTER_TOOL_DEFINITIONS,
   handleSemesterTool,
-} from "./tools/semester.js";
+} from "./tools/semester";
 
 export const SERVER_NAME = "chaoscourse";
 export const SERVER_VERSION = "0.1.0";

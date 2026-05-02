@@ -1,4 +1,4 @@
-import { getConvexClient } from "../../src/lib/convex.js";
+import { getConvexClient } from "@/src/lib/convex";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
@@ -6,14 +6,11 @@ const corsHeaders = {
   "Access-Control-Allow-Headers": "Content-Type",
 };
 
-export default async function handler(req: Request): Promise<Response> {
-  if (req.method === "OPTIONS") {
-    return new Response(null, { status: 204, headers: corsHeaders });
-  }
-  if (req.method !== "POST") {
-    return new Response("Method not allowed", { status: 405, headers: corsHeaders });
-  }
+export async function OPTIONS() {
+  return new Response(null, { status: 204, headers: corsHeaders });
+}
 
+export async function POST(req: Request) {
   let body: any;
   try {
     body = await req.json();
@@ -33,7 +30,10 @@ export default async function handler(req: Request): Promise<Response> {
   }
   if (!redirectUris.every((u: unknown) => typeof u === "string")) {
     return Response.json(
-      { error: "invalid_request", error_description: "redirect_uris must be strings" },
+      {
+        error: "invalid_request",
+        error_description: "redirect_uris must be strings",
+      },
       { status: 400, headers: corsHeaders },
     );
   }
@@ -43,7 +43,8 @@ export default async function handler(req: Request): Promise<Response> {
     "oauth:registerClient" as any,
     {
       redirectUris,
-      clientName: typeof body.client_name === "string" ? body.client_name : undefined,
+      clientName:
+        typeof body.client_name === "string" ? body.client_name : undefined,
     },
   )) as { clientId: string; clientSecret: string };
 
@@ -58,5 +59,3 @@ export default async function handler(req: Request): Promise<Response> {
     { status: 201, headers: corsHeaders },
   );
 }
-
-export const config = { runtime: "nodejs" };
