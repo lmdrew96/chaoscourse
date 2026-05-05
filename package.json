@@ -1,6 +1,6 @@
 {
   "name": "chaoscourse",
-  "version": "0.2.0",
+  "version": "0.2.4",
   "description": "MCP server that makes Claude semester-aware by parsing syllabi into structured course data",
   "private": true,
   "scripts": {
